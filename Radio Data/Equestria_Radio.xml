@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadioData>
+  <RootInfo>
+    <SourceFile>Radio</SourceFile>
+    <FileGUID>e4a8a2c1-0384-434a-a073-9271bf065696</FileGUID>
+    <Version>-1</Version>
+  </RootInfo>
+  <Voices>
+    <VoiceEntry ID="3855f633-566a-49e0-a672-b542b476e163">
+      <FinalColor r="0" g="128" b="255" />
+    </VoiceEntry>
+    <VoiceEntry ID="018c476b-f3e6-4854-8873-924db2133c6f">
+      <FinalColor r="128" g="0" b="255" />
+    </VoiceEntry>
+    <VoiceEntry ID="1265cb91-e913-4ad3-8fe3-a257c84844b1">
+      <FinalColor r="255" g="128" b="0" />
+    </VoiceEntry>
+    <VoiceEntry ID="4e134314-6898-497f-bade-9a477d1c5270">
+      <FinalColor r="64" g="128" b="128" />
+    </VoiceEntry>
+    <VoiceEntry ID="ea959561-4e69-45f1-b768-e396c8c87161">
+      <FinalColor r="255" g="128" b="128" />
+    </VoiceEntry>
+  </Voices>
+  <Adverts />
+  <Channels>
+    <ChannelEntry ID="39c0b102-e75d-44b6-bed2-deb8df843be2" name="CanterTalk" cat="Radio" freq="101200" startscript="main">
+      <ScriptEntry ID="ee93b450-93ea-4253-a37f-cf25d8209f3a" name="main" startdelay="0" timestampmode="Static" loopmin="1" loopmax="1">
+        <ExitOptions>
+          <ExitOption chance="100" script="main" delay="0" />
+        </ExitOptions>
+        <BroadcastEntry ID="0351f0fa-a145-48d6-9b2e-cc1624ad6929" timestamp="0" endstamp="360" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false">
+          <LineEntry ID="d2422d45-96f5-4f81-b869-f2536b7f7922" r="0" g="128" b="255">You're listening to CanterTalk! Equestria's premeire station for celebrity gossip. </LineEntry>
+          <LineEntry ID="005d5ffc-827c-46db-a0ae-a175edcee4d9" r="0" g="128" b="255">My name is Minuette, and today we'll be talking to our very own princess of friendship! </LineEntry>
+          <LineEntry ID="c05c5dec-27d5-4cc3-be88-5bb7cbce6fcd" r="0" g="128" b="255">She's traveled all the way here to talk with us about the strange events in Ponyville. </LineEntry>
+          <LineEntry ID="ea1987b6-0d73-4c8a-b7ba-85d6816370ca" r="0" g="128" b="255">So princess, what exactly has everypony so worked up as of late? </LineEntry>
+          <LineEntry ID="dfa20874-ffab-4a38-b723-3e6baad366f7" r="128" g="0" b="255">That's a very good question Lyra, we....</LineEntry>
+          <LineEntry ID="0ce22b78-727f-4149-b8c9-04e44f92f1a2" r="128" g="0" b="255">...well...</LineEntry>
+          <LineEntry ID="17ca1f2e-d0e8-42dc-81dd-70601feda7c2" r="128" g="0" b="255">...we aren't really sure at the moment precisely what happened. </LineEntry>
+          <LineEntry ID="918e89c3-1106-4c90-a240-74cb9907fdb0" r="128" g="0" b="255">...more tests and diagnostic information are necessary to rule out all of the factors. </LineEntry>
+          <LineEntry ID="78b5fc10-88dc-4e5a-8cae-fb5efc9ee176" r="128" g="0" b="255">The most important thing for everypony to remember right now, is not to come to irrational conclusions! </LineEntry>
+        </BroadcastEntry>
+        <BroadcastEntry ID="a648462f-9d5b-4e4e-b2cd-4a929f565eac" timestamp="360" endstamp="720" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false">
+          <LineEntry ID="f2f11755-84d5-4373-99bc-934efb8d0376" r="255" g="128" b="0">I'm Starshine, and welcome back to CanterTalk!</LineEntry>
+          <LineEntry ID="7e65d9c0-fa10-459e-8e7c-e8d571582fcf" r="255" g="128" b="0">And now, the question that has plagued everypony's mind since Luna's return...</LineEntry>
+          <LineEntry ID="b5ab2b6d-adfe-4ec3-b013-d0da8bbd9144" r="255" g="128" b="0">Hands? Fingers? Legs and feet? Could the mythical apelike creatures hide in plain sight among us? </LineEntry>
+          <LineEntry ID="48f3a6b5-f72d-4c1c-89ce-40e7d1f67416" r="255" g="128" b="0">This pony says, ABSOLUTELY YES! </LineEntry>
+          <LineEntry ID="f8c99c1c-7d98-4b12-9204-11adce9908ff" r="255" g="128" b="0">Put your hooves together for, Lyra Heartstrings! </LineEntry>
+          <LineEntry ID="5ac6c92b-9e43-4a7b-b8c4-7b7f7b99b730" r="64" g="128" b="128">Thank you so much Starshine, It's a pleasure to be here</LineEntry>
+          <LineEntry ID="c96cb84a-f62b-4f24-9868-c13af44b194a" r="255" g="128" b="0">What exactly do you mean when you claim....</LineEntry>
+          <LineEntry ID="0bd9e95a-a27d-49e0-9299-5da1f345ba71" r="255" g="128" b="0">...that a 'parallel universe' can appear? </LineEntry>
+          <LineEntry ID="7304e789-0f94-4a14-ab18-7b6b10172d60" r="64" g="128" b="128">I've seen them. </LineEntry>
+          <LineEntry ID="46f33906-1658-4803-a590-c933a72e74c3" r="255" g="128" b="0">Seen what exactly?</LineEntry>
+          <LineEntry ID="0ed3fa77-8ccc-468e-b6d7-9fa746fb887e" r="64" g="128" b="128">What those books describe! </LineEntry>
+          <LineEntry ID="add3c381-4a28-4da9-806d-7e53e46c1771" r="64" g="128" b="128">...the ones in old library in Ponyville...</LineEntry>
+          <LineEntry ID="a1e10bf0-24c2-4a3b-b54c-7a64e86f0e48" r="64" g="128" b="128">...before it was destroyed of course...</LineEntry>
+          <LineEntry ID="12281c96-60aa-4606-b29a-7a1bfc43f7fe" r="64" g="128" b="128">...there are countless references to them... </LineEntry>
+          <LineEntry ID="6fc731f4-312f-4cf7-956e-777e3a589bf9" r="64" g="128" b="128">...but I- they... they don't look anything like-</LineEntry>
+          <LineEntry ID="6c14c8e2-513e-4449-99fd-631eb99629e9" r="64" g="128" b="128">...there's just something so dreadfully wrong with them Starshine....</LineEntry>
+        </BroadcastEntry>
+        <BroadcastEntry ID="9906f7d1-97cb-4c62-befb-3a70ec01e214" timestamp="720" endstamp="1080" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false">
+          <LineEntry ID="242c78a3-289f-412b-8296-60e6bcbea525" r="0" g="128" b="255">This is Minuette, with another episode of CanterTalk! </LineEntry>
+          <LineEntry ID="4ca70279-698c-44a4-96d3-37bd8239c93f" r="0" g="128" b="255">seems like ponies have been getting so worked up over nothing lately </LineEntry>
+          <LineEntry ID="2d936e57-4dce-423a-87bf-a68fa781c3a1" r="0" g="128" b="255">...the Princesses...</LineEntry>
+          <LineEntry ID="47989c4e-bb46-41f2-bb22-492645c337e4" r="0" g="128" b="255">...the last few callers went on and on about the Princesses...</LineEntry>
+          <LineEntry ID="c3ae9dab-979c-417c-a72b-22ac7ca074a8" r="0" g="128" b="255">..we apologize for the sudden increase in crank callers...</LineEntry>
+          <LineEntry ID="0b5b9796-2449-47d8-b656-a6eb22e50a90" r="0" g="128" b="255">...something ridiculous about lumbering blood thirsty aliens...</LineEntry>
+          <LineEntry ID="340d63e7-7f92-49c9-88c3-e28f3c890948" r="0" g="128" b="255">...stay tuned folks! In the next few hours we're going to get it straight from the horse's mouth!...</LineEntry>
+          <LineEntry ID="16aaa6f9-6f2d-4f30-bcdc-8ef6133ea85d" r="0" g="128" b="255">...that's right! Princess Celestia will live with us! </LineEntry>
+          <LineEntry ID="c30e270f-9f55-4b5c-9e62-3fbe0957344e" r="0" g="128" b="255">stay safe Equestria! </LineEntry>
+        </BroadcastEntry>
+        <BroadcastEntry ID="2035db6b-ff27-48a0-a48a-f41a6d67f388" timestamp="1080" endstamp="1440" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false">
+          <LineEntry ID="443a84c0-7047-4685-bd55-017666759c66" r="0" g="128" b="255">Good evening Equestria! It's Minuette, back with a live interview..</LineEntry>
+          <LineEntry ID="93bf129f-3053-458c-8730-d8403760ef54" r="0" g="128" b="255">...Princess Celestia, it's such a honor for you to visit...</LineEntry>
+          <LineEntry ID="9b08890f-8a71-4750-afe6-27d3726346f5" r="255" g="128" b="128">Oh no Minuette, the pleasure is all mine. </LineEntry>
+          <LineEntry ID="6f9674cd-5583-4e4c-b47b-5a7f43be183c" r="0" g="128" b="255">...Princess, the question the viewers are most anxious to ask...</LineEntry>
+          <LineEntry ID="839072ed-aebc-4a34-bcf3-dd0870ec2bc3" r="0" g="128" b="255">...Do you know anything about what ponies are saying happened in Ponyville?...</LineEntry>
+          <LineEntry ID="83e604d5-d3f1-43ae-84f1-568c1128a827" r="0" g="128" b="255">...some say it's an elaborate Pie style prank. Others are adamant that it's a royal top secret... </LineEntry>
+          <LineEntry ID="6f6fb1ef-779c-4323-aefa-3ce380462348" r="0" g="128" b="255">...what are your thoughts?</LineEntry>
+          <LineEntry ID="c2214eb3-5808-475f-9c45-f2275b756cd4" r="255" g="128" b="128">...Thank you Minuette, and yes...</LineEntry>
+          <LineEntry ID="9edb57d0-5607-4fb1-9841-48fce5f4720b" r="255" g="128" b="128">...I have been made aware of the.... concerning developments. ..</LineEntry>
+          <LineEntry ID="da64149f-91e3-47d3-ad7d-1443df2e4a16" r="255" g="128" b="128">...All I can say at the moment is that my sister and I...</LineEntry>
+          <LineEntry ID="fe33d830-2a26-464d-843c-d43ddd9b23c4" r="255" g="128" b="128">...will wear ourselves thin before we let harm come to our ponies.</LineEntry>
+          <LineEntry ID="ae244d8b-89a3-4e91-9f44-03e5d547ae98" r="0" g="128" b="255">What do you mean by that? </LineEntry>
+          <LineEntry ID="0a0786c2-6dc4-45fa-a03c-b40818b5376b" r="255" g="128" b="128">...</LineEntry>
+          <LineEntry ID="997a446f-b42f-40f9-b1f8-9b8ad92ffba2" r="0" g="128" b="255">Princess...?</LineEntry>
+        </BroadcastEntry>
+      </ScriptEntry>
+      <ScriptEntry ID="5f312e29-f5cb-4a8d-ad93-d1d2ed9a0846" name="script" startdelay="0" timestampmode="Static" loopmin="1" loopmax="1">
+        <ExitOptions />
+      </ScriptEntry>
+    </ChannelEntry>
+  </Channels>
+</RadioData>
