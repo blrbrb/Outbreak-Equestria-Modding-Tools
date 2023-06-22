@@ -3,7 +3,7 @@
 
 This repository contains the original tilesheets, tile definitions, building tmx files, wordzed radio data, and configuration for the Project Zomboid mod "Outbreak Equestria" which is currently under development. 
 
-This template is intended to be used by anyone, and everyone who would like to make a contribution to the project. 
+This template is intended to be used by anyone, and everyone who would like to make a contribution to the project. This mod is not offically endorsed by any company, or organization. And is still in the infancy of it's planning. More tools, such as maps, lua definitions, and etc will be provided in this repository as I make progress. There are currently only two people working. In the meantime, please feel free to make additions and or modifications to the assets provided. 
 
 
 ## Installation
