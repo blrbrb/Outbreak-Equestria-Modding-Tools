@@ -46,12 +46,5 @@ Alternativley, you can choose to import it inside of WordZed as part of a new pr
 
 
 ## That's It, You're ready! 
-## Installation
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
     
